@@ -1,0 +1,88 @@
+# =====================
+# Python & ambiente virtual
+# =====================
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+*.pyd
+*.pyo
+
+# =====================
+# Ambiente virtual
+# =====================
+venv/
+.env
+.env.*
+pip-log.txt
+pip-delete-this-directory.txt
+
+# =====================
+# Logs e arquivos temporários
+# =====================
+*.log
+*.tmp
+*.swp
+*.bak
+*.DS_Store
+*.orig
+*.old
+
+# =====================
+# Arquivos Jupyter Notebook
+# =====================
+.ipynb_checkpoints/
+
+# =====================
+# Arquivos do sistema (Linux, macOS, Windows)
+# =====================
+Thumbs.db
+ehthumbs.db
+Icon?
+Desktop.ini
+
+# =====================
+# Pytest e cobertura de testes
+# =====================
+.coverage
+.tox/
+.nox/
+.cache/
+pytest_cache/
+htmlcov/
+coverage.xml
+
+# =====================
+# IDEs e editores
+# =====================
+
+# VSCode
+.vscode/
+.history/
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime
+*.sublime-workspace
+*.sublime-project
+
+# =====================
+# Arquivos de configuração locais
+# =====================
+*.local
+*.envrc
+*.secret
+secrets.yaml
+config.yaml
+
+# =====================
+# Arquivos de pacotes e dependências
+# =====================
+poetry.lock
+Pipfile.lock
