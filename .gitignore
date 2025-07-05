@@ -18,6 +18,7 @@ build/
 venv/
 .env
 .env.*
+.ipynb
 pip-log.txt
 pip-delete-this-directory.txt
 
